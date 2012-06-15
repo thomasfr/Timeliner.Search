@@ -18,7 +18,7 @@ describe('#search', function () {
         index.purge();
     });
     it('should make a bo bo without any errors', function (done) {
-        search('lorem', client, function () {
+        search('word', client, function () {
             console.log(arguments);
             done();
         });
