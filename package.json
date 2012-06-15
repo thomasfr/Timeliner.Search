@@ -1,0 +1,28 @@
+{
+    "author": "Thomas Fritz <fritztho@gmail.com> (http://thomas-fritz.at)",
+    "name": "Timeliner.Search",
+    "description": "Search module for Timeliner. Can be used standalone to search an Index created with Timeliner.Index",
+    "version": "0.1.0",
+    "homepage": "https://github.com/thomasfr/Timeliner.Search",
+    "repository": {
+        "url": "https://github.com/thomasfr/Timeliner.Search.git"
+    },
+    "scripts": {
+        "test": "make test"
+    },
+    "dependencies": {
+        "Timeliner.Core": "latest",
+        "configuration": "latest"
+    },
+    "devDependencies": {
+        "Timeliner.Index": "latest",
+        "mocha": "latest",
+        "should": "latest",
+        "hiredis": "~0.1.14",
+        "redis": "~0.7.2"
+    },
+    "optionalDependencies": {},
+    "engines": {
+        "node": "~0.6.19 || ~0.7.10"
+    }
+}
